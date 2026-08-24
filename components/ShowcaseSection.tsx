@@ -46,11 +46,6 @@ type StagePose = {
 
 const ALL_FRAMES: Frame[] = [
   {
-    src: "/landing_page/mockups/master-password-unlock.svg",
-    alt: "Master password unlock screen",
-    label: "Unlock",
-  },
-  {
     src: "/landing_page/mockups/vault-list.svg",
     alt: "Vault list screen showing categorized encrypted entries",
     label: "Vaults",
@@ -61,14 +56,14 @@ const ALL_FRAMES: Frame[] = [
     label: "New vault",
   },
   {
+    src: "/landing_page/mockups/master-password-unlock.svg",
+    alt: "Master password unlock screen",
+    label: "Unlock",
+  },
+  {
     src: "/landing_page/mockups/unlocked-vault-detail-entries.svg",
     alt: "Unlocked vault detail screen listing every credential entry",
     label: "Vault entries",
-  },
-  {
-    src: "/landing_page/mockups/unlocked-vault-detail-website.svg",
-    alt: "Unlocked vault detail screen showing a website login entry",
-    label: "Website entry",
   },
   {
     src: "/landing_page/mockups/unlocked-vault-detail-add-website.svg",
@@ -76,9 +71,14 @@ const ALL_FRAMES: Frame[] = [
     label: "Add website",
   },
   {
-    src: "/landing_page/mockups/unlocked-vault-detail-credit-card.svg",
-    alt: "Unlocked vault detail screen showing a credit card entry",
-    label: "Card entry",
+    src: "/landing_page/mockups/unlocked-vault-password-generator.svg",
+    alt: "Password generator screen for creating strong new credentials",
+    label: "Password generator",
+  },
+  {
+    src: "/landing_page/mockups/unlocked-vault-detail-website.svg",
+    alt: "Unlocked vault detail screen showing a website login entry",
+    label: "Website entry",
   },
   {
     src: "/landing_page/mockups/unlocked-vault-detail-add-credit-card.svg",
@@ -86,9 +86,9 @@ const ALL_FRAMES: Frame[] = [
     label: "Add card",
   },
   {
-    src: "/landing_page/mockups/unlocked-vault-detail-wifi.svg",
-    alt: "Unlocked vault detail screen showing a Wi-Fi network entry",
-    label: "Wi-Fi entry",
+    src: "/landing_page/mockups/unlocked-vault-detail-credit-card.svg",
+    alt: "Unlocked vault detail screen showing a credit card entry",
+    label: "Card entry",
   },
   {
     src: "/landing_page/mockups/unlocked-vault-detail-add-wifi.svg",
@@ -96,19 +96,19 @@ const ALL_FRAMES: Frame[] = [
     label: "Add Wi-Fi",
   },
   {
-    src: "/landing_page/mockups/unlocked-vault-password-generator.svg",
-    alt: "Password generator screen for creating strong new credentials",
-    label: "Password generator",
-  },
-  {
-    src: "/landing_page/mockups/personas-manager.svg",
-    alt: "Personas manager screen listing generated identities",
-    label: "Personas",
+    src: "/landing_page/mockups/unlocked-vault-detail-wifi.svg",
+    alt: "Unlocked vault detail screen showing a Wi-Fi network entry",
+    label: "Wi-Fi entry",
   },
   {
     src: "/landing_page/mockups/create-persona-form.svg",
     alt: "Create persona form for generating a fictional identity",
     label: "New persona",
+  },
+  {
+    src: "/landing_page/mockups/personas-manager.svg",
+    alt: "Personas manager screen listing generated identities",
+    label: "Personas",
   },
 ];
 
