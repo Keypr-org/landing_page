@@ -114,7 +114,7 @@ const ALL_FRAMES: Frame[] = [
 
 const STAGE_POSES: StagePose[] = [
   {
-    frameIndex: 1,
+    frameIndex: 0,
     top: "54%",
     left: "50%",
     z: 90,
@@ -128,7 +128,7 @@ const STAGE_POSES: StagePose[] = [
     width: "min(30vw, 400px)",
   },
   {
-    frameIndex: 2,
+    frameIndex: 1,
     top: "84%",
     left: "16%",
     z: -100,
@@ -142,7 +142,7 @@ const STAGE_POSES: StagePose[] = [
     width: "min(20vw, 260px)",
   },
   {
-    frameIndex: 0,
+    frameIndex: 4,
     top: "18%",
     left: "84%",
     z: -100,
@@ -156,7 +156,7 @@ const STAGE_POSES: StagePose[] = [
     width: "min(20vw, 260px)",
   },
   {
-    frameIndex: 3,
+    frameIndex: 6,
     top: "24%",
     left: "20%",
     z: 10,
@@ -170,7 +170,7 @@ const STAGE_POSES: StagePose[] = [
     width: "min(24vw, 320px)",
   },
   {
-    frameIndex: 11,
+    frameIndex: 12,
     top: "76%",
     left: "80%",
     z: 10,
