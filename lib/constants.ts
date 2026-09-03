@@ -4,9 +4,9 @@ export const EXTENSION_URL = "https://github.com/Keypr-org/browser_extension";
 
 // Examples, need to be replaced with real links after we have a real release.
 export const DOWNLOAD_LINKS = {
-  windows: `${GITHUB_URL}`,
-  macos: `${GITHUB_URL}`,
-  linux: `${GITHUB_URL}`,
+  windows: `${GITHUB_URL}/qt_client/releases`,
+  macos: `${GITHUB_URL}/qt_client/releases`,
+  linux: `${GITHUB_URL}/qt_client/releases`,
 } as const;
 
 export const NAV_LINKS = [
