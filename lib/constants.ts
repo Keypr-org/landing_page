@@ -1,12 +1,12 @@
 // Needs to be updated with the real links after we have a real release.
-export const GITHUB_URL = "https://github.com/org/keypr";
-export const EXTENSION_URL = "https://chrome.google.com/webstore/...";
+export const GITHUB_URL = "https://github.com/Keypr-org";
+export const EXTENSION_URL = "https://github.com/Keypr-org/browser_extension";
 
 // Examples, need to be replaced with real links after we have a real release.
 export const DOWNLOAD_LINKS = {
-  windows: `${GITHUB_URL}/releases/latest/download/Keypr-Setup.exe`,
-  macos: `${GITHUB_URL}/releases/latest/download/Keypr.dmg`,
-  linux: `${GITHUB_URL}/releases/latest/download/Keypr.AppImage`,
+  windows: `${GITHUB_URL}`,
+  macos: `${GITHUB_URL}`,
+  linux: `${GITHUB_URL}`,
 } as const;
 
 export const NAV_LINKS = [
